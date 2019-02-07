@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv-"X UA Compatible" content-"YE-edge">
+    <meta name="author" content="suszi">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing App</title>
+</head>
+
+<body>
+    <header>
+        <h1>Drawing App</h1>
+    </header>
+    <section class="inputContainer">
+        <div class="input">
+            <input type="color" list id="paintColor">
+        </div>
+        <div class="input" id="thickness">
+            <div id="circle"></div>
+        </div>
+        <div class="input">
+            <div id="slider"></div>
+        </div>
+    </section>
+    <section id="container">
+        <canvas id="paint" width="500" height="400"></canvas>
+
+    </section>
+    <section class="inputContainer2">
+        <div class="input2"><span id="erase" class="btn">Erase</span></div>
+        <div class="input2"><span id="save" class="btn">Save</span></div>
+        <div class="input2"><span id="reset" class="btn">Reset</span></div>
+
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

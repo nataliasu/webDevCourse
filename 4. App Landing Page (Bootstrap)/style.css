@@ -1,0 +1,97 @@
+.jumbotron {
+    background: url(https://picsum.photos/4000/2248?image=984) center center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.logo {
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.758);
+    margin-top: -40px;
+}
+
+.featured {
+    color: rgba(255, 255, 255, 0.85);
+    padding-top: 30px;
+
+}
+
+.featured .btn-light {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(223, 164, 164, 0.758);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 180px;
+}
+
+.featured .btn-light:hover {
+    background-color: #dfa4a4;
+}
+
+.trial {
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: black;
+}
+
+.fa-app-store-ios,
+.fa-google-play {
+    font-size: 5em;
+    padding: 10px 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1c1c1;
+    height: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        height: 70vh;
+        margin: 0;
+    }
+
+    .logo {
+        font-size: 2em;
+        margin-top: -20px;
+    }
+
+    .featured h1 {
+        padding-top: 30px;
+    }
+
+    .featured p {
+        font-size: 17px;
+    }
+
+    .featured {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .jumbotron {
+        height: 100vh;
+    }
+
+    logo {
+        margin-top: 0;
+    }
+
+    .featured h1 {
+        padding-top: 10px;
+    }
+
+    .featured p,
+    .featured a {
+        font-size: 17px;
+    }
+
+    .featured {
+        text-align: center;
+    }
+}

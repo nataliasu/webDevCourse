@@ -1,0 +1,70 @@
+body {
+    background: url(https://picsum.photos/2048/1286?image=982) center center fixed;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vw;
+    padding-top: 15px;
+}
+
+#lap {
+    text-align: right;
+    font-size: 5vw;
+    padding-top: 20px;
+    width: 20vw;
+    margin-left: auto;
+}
+
+#time {
+    text-align: center;
+    font-size: 10vw;
+    padding-top: 20px;
+    width: 38vw;
+    margin: 0 auto;
+}
+
+.control {
+    background-color: #87642f;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-right: 20px;
+    padding: 30% 0;
+}
+
+#controlsContainer {
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+
+.control:active {
+    color: #87642f;
+    background-color: white;
+}
+
+#laps {
+    height: 20vh;
+    margin: 15px;
+    overflow-y: scroll;
+}
+
+.lap {
+    height: 40px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.laptimetitle {
+    font-size: 1em;
+    float: left;
+}
+
+.laptime {
+    font-size: 1.2em;
+    float: right;
+}

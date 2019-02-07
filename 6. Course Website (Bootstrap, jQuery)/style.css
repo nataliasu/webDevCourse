@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+/*   NIE DZIAŁA JAK CHCĘ ROBIĆ SCROLLSPY
+.navbar-custom {
+    background-color: rgba(23, 35, 63, 0.872);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link,
+.fas.fa-bars {
+    color: #e0e0e0;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+    background-color: rgba(23, 35, 63, 0.9);
+}
+*/
+
+.jumbotron {
+    height: 100vh;
+    background-color: transparent;
+    padding-top: 30vh;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top:
+}
+
+.jumbotron h2 {
+    line-height: 50px;
+}
+
+.btn {
+    margin-top: 5vh;
+    color: white;
+    background-color: #4889ac;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.btn:hover {
+    background-color: rgba(72, 137, 172, 0.502);
+}
+
+#about {
+    height: 100vh;
+}
+
+.card {
+    padding-top: px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.card-title {
+    font-size: 2.5em;
+}
+
+.icon {
+    font-size: 5em;
+    color: rgba(50, 220, 189, 0.703);
+}
+
+#promise {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.carousel {
+    width: 60vw;
+    margin: 0 auto;
+    background-color: rgba(2, 2, 2, 0.2);
+}
+
+.carousel-caption {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.2), transparent);
+}
+
+
+footer {
+    height: 10vh;
+    padding-top: 10px;
+}
+
+footer p {
+    text-align: right;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        background: url(https://picsum.photos/2000/1333?image=865) center center fixed;
+        background-size: cover;
+    }
+
+    #bgVideo {
+        display: none;
+    }
+
+    .jumbotron {
+        padding-top: 20vh;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .jumbotron h2 {
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .card {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .carousel {
+        height: auto;
+        width: 80vw;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    #promise {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .carousel {
+        width: 100vw;
+    }
+
+}

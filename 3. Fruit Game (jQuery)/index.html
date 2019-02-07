@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fruit Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="container">
+        <div id="score">Score: <span id="scorevalue"></span></div>
+        <div id="correct">Correct</div>
+        <div id="wrong">Try Again</div>
+        <div id="fruits">
+            <img id="fruit1" class="fruit">
+        </div>
+        <div id="instruction">Catch fruits</div>
+        <div id="startreset">Start Game</div>
+        <div id="trialsLeft"></div>
+        <div id="gameover"></div>
+    </div>
+
+    <audio id="sliceSound">
+        <source src="audio/slice.mp3">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="jquery.js">
+    </script>
+
+</body>
+</html>

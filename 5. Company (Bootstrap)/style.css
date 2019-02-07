@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+    background: url(https://picsum.photos/5616/3315?image=681) center center;
+    background-size: cover;
+    background-color: #000;
+    background-attachment: fixed;
+    font-family: 'Slabo 27px', serif;
+    color: white;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand i {
+    color: rgba(50, 220, 189, 0.703);
+    font-size: 1.3em
+}
+
+nav li {
+    padding: 0 20px;
+    font-size: 1.2em;
+}
+
+nav li:hover {
+    border-bottom: 1px solid rgba(50, 220, 189, 0.703);
+}
+
+.jumbotron,
+.card {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+.card {
+    border: 0px;
+}
+
+.card-title {
+    font-size: 2.5em;
+}
+
+.card i {
+    font-size: 5em;
+    color: rgba(50, 220, 189, 0.703);
+}
+
+.contact {
+    margin: 30px 0 100px 0;
+    text-align: center;
+}
+
+.contact .btn {
+    border-radius: 20px;
+    background-color: rgba(50, 220, 189, 0.4);
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    padding: 10px 70px;
+    color: white;
+}
+
+.contact .btn:hover {
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+footer {
+    background-color: rgba(2, 2, 2, 0.634);
+    color: #595959;
+    height: 40px;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 3.5em;
+    }
+
+    .card-title {
+        font-size: 2em;
+    }
+
+}
