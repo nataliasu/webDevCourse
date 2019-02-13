@@ -26,36 +26,17 @@ html {
     box-shadow: 4px 4px #bbbbb8;
 }
 
-#correct {
-    position: absolute;
-    margin: 250px 340px;
-    background-color: #76d55c;
-    color: white;
-    padding: 10px;
-    display: none;
-}
-
-#wrong {
-    margin: 250px 330px;
-    position: absolute;
-    background-color: #d55c5c;
-    color: white;
-    padding: 10px;
-    display: none;
-}
-
 #fruits {
     width: 650px;
-    height: 400px;
+    height: 450px;
     background-color: white;
-    margin: 50px auto 10px auto;
+    margin: 0px auto 10px auto;
     box-shadow: 4px 4px #4753a7;
     font-size: 5em;
     text-align: center;
     line-height: 150px;
     position: relative;
     overflow: hidden;
-    /*        display: none;*/
 }
 
 #instruction {
@@ -63,10 +44,6 @@ html {
     flex-basis: 80%;
     align-items: center;
     justify-content: center;
-    width: 450px;
-    height: 50px;
-    background-color: #4c9ab2;
-    box-shadow: 4px 4px #26535e;
     margin: 10px auto;
 }
 
@@ -82,9 +59,10 @@ html {
     display: flex;
     flex-basis: 30%;
     justify-content: center;
+    align-self: center;
     background-color: #d8e8e8;
     width: 120px;
-    padding: 10px;
+    padding: 15px;
     margin: 5px auto;
     border-radius: 10px;
     cursor: pointer;
@@ -96,6 +74,11 @@ html {
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     -ms-transition: all 0.2s;
+}
+
+#startreset:hover {
+    background-color: #4f4f4f;
+    color: white;
 }
 
 #trialsLeft {
